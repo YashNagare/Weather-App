@@ -14,7 +14,7 @@ def index(request):
         # source contain json data from api
 
         source = urllib.request.urlopen(
-            'http://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=033e39a225ad2f0bb2c5e616f5c86965').read()
+            'http://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=YOUR API KEY').read()
 
         # converting json data to dictionary
 
